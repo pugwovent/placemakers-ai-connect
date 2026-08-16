@@ -30,10 +30,10 @@ export function SiteHeader() {
 
       <div className="bg-primary">
         <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-4">
-          <a href="/" className="group shrink-0">
-            <div className="flex flex-col bg-background px-3 py-1.5">
+          <a href="/" className="group shrink-0 px-1 py-1">
+            <div className="flex flex-col">
               <div
-                className="flex items-baseline text-primary"
+                className="flex items-baseline text-primary-foreground"
                 style={{ fontFamily: "'Outfit', sans-serif" }}
               >
                 <span className="text-2xl font-black tracking-tighter uppercase transition-colors duration-300">
@@ -43,8 +43,8 @@ export function SiteHeader() {
                   Company
                 </span>
               </div>
-              <div className="mt-1 h-[2px] w-full overflow-hidden bg-primary/10">
-                <div className="h-full w-10 bg-primary transition-all duration-500 ease-out group-hover:w-full" />
+              <div className="mt-1 h-[2px] w-full overflow-hidden bg-primary-foreground/20">
+                <div className="h-full w-10 bg-primary-foreground transition-all duration-500 ease-out group-hover:w-full" />
               </div>
             </div>
           </a>
